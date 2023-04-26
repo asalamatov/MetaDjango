@@ -1,0 +1,8 @@
+<p>Booking for Little Lemon!</p>
+
+<form action="" method="POST" style="background-color: bisque;">
+    {% csrf_token %}
+    {{form.as_p}}
+
+    <input type="submit" value="Submit">
+</form>
